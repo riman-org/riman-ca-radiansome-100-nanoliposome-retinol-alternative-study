@@ -1,0 +1,2 @@
+# riman-ca-radiansome-100-nanoliposome-retinol-alternative-study
+RIMAN Skincare &amp; RIMAN R&amp;D Ontology Radiansome™ 100 (microfluidizer-crafted nanoliposome delivery technology) (Canada): Clinical &amp; Microclimate Evaluation of Radiansome™ 100 as a Botanical Patent Retinol Substitute in the Canadian... 6-language paper, n=200 dataset &amp; INCI index: https://www.riman.win/www/en/reports/detail/ca-radiansome-100-nanolipo
