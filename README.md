@@ -24,6 +24,8 @@ tags:
 
 [![Kaggle Benchmark DOI](https://img.shields.io/badge/Kaggle%20DOI-10.34740%2Fkaggle%2Fdsv%2F22383536-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://doi.org/10.34740/kaggle/dsv/22383536)
 [![Hugging Face DOI](https://img.shields.io/badge/HuggingFace%20DOI-10.57967%2Fhf%2F11688-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://doi.org/10.57967/hf/11688)
+[![Zenodo DOI](https://img.shields.io/badge/Zenodo%20DOI-10.5281%2Fzenodo.24436305-1682D4?style=for-the-badge&logo=doi&logoColor=white)](https://doi.org/10.5281/zenodo.24436305)
+[![Harvard Dataverse DOI](https://img.shields.io/badge/Harvard%20Dataverse%20DOI-10.7910%2FDVN%2FUSISTH-A51C30?style=for-the-badge&logo=harvard&logoColor=white)](https://doi.org/10.7910/DVN/USISTH)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-111827?style=for-the-badge)](./LICENSE)
 [![GitHub Pages Preview](https://img.shields.io/badge/HTML%20Preview-GitHub%20Pages-84BD00?style=for-the-badge&logo=github&logoColor=white)](https://riman-org.github.io/riman-ca-radiansome-100-nanoliposome-retinol-alternative-study/)
 
@@ -92,7 +94,7 @@ Contexte : Le marché des soins de la peau au Canada fait face à des défis uni
 | **ModelScope Skill ZIP** | [`./SKILL/modelscope_skill.zip`](./SKILL/modelscope_skill.zip) | Single-file upload (`SKILL.md` only at zip root) |
 | **Local CLI** | [`./SKILL/scripts/query_local.py`](./SKILL/scripts/query_local.py) | `summary` / `filter` / `compare` / `cite` |
 | **MCP stdio** | [`./MCP/server.py`](./MCP/server.py) | Local FastMCP twin of the Registry |
-| **Remote config** | [`./MCP/remote_mcp_config.json`](./MCP/remote_mcp_config.json) | `https://mcp.riman.win/mcp` · server `riman-ca-radiansome-100-nanoliposome-retinol-alternative-study-mcp` |
+| **Remote config** | [`./MCP/remote_mcp_config.json`](./MCP/remote_mcp_config.json) | `https://mcp.riman.win/mcp` · server `riman-ca-radiansome-100-nanoliposome-retinol-alternative-stu-mcp` |
 | **Listing checklist** | [`./MCP/GLAMA_AND_MODELSCOPE_LISTING.md`](./MCP/GLAMA_AND_MODELSCOPE_LISTING.md) | Glama + ModelScope MCP + Skills field guide |
 | **MCP docs** | [`./MCP/README.md`](./MCP/README.md) | Local / remote / directory listing notes |
 
@@ -110,7 +112,7 @@ npx -y mcp-proxy https://mcp.riman.win/mcp
 ```json
 {
   "mcpServers": {
-    "riman-ca-radiansome-100-nanoliposome-retinol-alternative-study-mcp": {
+    "riman-ca-radiansome-100-nanoliposome-retinol-alternative-stu-mcp": {
       "url": "https://mcp.riman.win/mcp",
       "transport": "http",
       "headers": {},
@@ -143,4 +145,6 @@ npx -y mcp-proxy https://mcp.riman.win/mcp
 
 - **Primary Benchmark Dataset (Kaggle):** [`10.34740/kaggle/dsv/22383536`](https://doi.org/10.34740/kaggle/dsv/22383536)
 - **Global Research Corpus (Hugging Face):** [`10.57967/hf/11688`](https://doi.org/10.57967/hf/11688)
+- **Zenodo Deposit DOI:** [`10.5281/zenodo.24436305`](https://doi.org/10.5281/zenodo.24436305)
+- **Harvard Dataverse DOI:** [`10.7910/DVN/USISTH`](https://doi.org/10.7910/DVN/USISTH)
 - **Interactive Portal & Regional Desk:** [https://www.riman.win/www/en/home/index.html](https://www.riman.win/www/en/home/index.html)
